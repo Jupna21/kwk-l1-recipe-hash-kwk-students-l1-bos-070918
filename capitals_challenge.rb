@@ -22,5 +22,4 @@ states["Ohio"]= "OH"
 
 # #6. Iterate through capitals and print just capitals
 end
-end
 puts capitals_challenge
