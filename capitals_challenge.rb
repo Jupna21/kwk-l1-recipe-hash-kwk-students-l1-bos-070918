@@ -11,7 +11,9 @@ states["Ohio"]= "OH"
 
 #4. Iterate through and print all states and postal codes
 # puts "#{states} #{codes}"
+states.each do |states,codes|
+  
 #5. Iterate through states hash and print just states
-puts capitals.each_value { |capitals| puts capitals }
+# puts capitals.each_value { |capitals| puts capitals }
 
 #6. Iterate through capitals and print just capitals
