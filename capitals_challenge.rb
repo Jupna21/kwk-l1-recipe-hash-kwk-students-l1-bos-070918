@@ -21,9 +21,13 @@ states["Ohio"]= "OH"
 # # puts capitals.each_value { |capitals| puts capitals }
 .each_key { |key| puts key }
 states.each do |state,code|
-  puts state
+  puts states
 end
 
 # #6. Iterate through capitals and print just capitals
+.each_value { |value| puts value }
+capitals.each do |code,capitals|
+puts capitals
+  end
 end
 puts capitals_challenge
