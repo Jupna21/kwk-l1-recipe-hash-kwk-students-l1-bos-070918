@@ -19,3 +19,8 @@ one_direction.each do |name,age|
 end
 average = sum / one_direction.count
 puts average
+
+#line 14 creates a hash
+#line 15 defines the sum as 0 because we havent done anything with thier ages yet
+#line 20 finds the average by taking the sum and dividing it by the ages in the hash by counting each age from each member
+#line 21 calls the average to output the average number solved for
