@@ -8,7 +8,7 @@ capitals = {"MA" => "Boston", "WI" => "Madison", "NJ" => "Trenton", "CO" => "Den
 puts states["Wisonsin"]
 
 #2. Access capital of NJ
-capitals["NJ"]
+puts capitals["NJ"]
 
 #3. Add Ohio => OH to states hash
 states["Ohio"]= "OH"
