@@ -19,6 +19,10 @@ states["Ohio"]= "OH"
   
 # #5. Iterate through states hash and print just states
 # # puts capitals.each_value { |capitals| puts capitals }
+.each_key { |key| puts key }
+states.each do |state,code|
+  puts state
+end
 
 # #6. Iterate through capitals and print just capitals
 end
