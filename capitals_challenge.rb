@@ -19,3 +19,4 @@ states["Ohio"]= "OH"
 # # puts capitals.each_value { |capitals| puts capitals }
 
 # #6. Iterate through capitals and print just capitals
+end
